@@ -1,0 +1,260 @@
+@import url(fonts.css);
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: m4;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.header-nav {
+    padding-top: 50px;
+}
+
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black; 
+}
+
+.header-nav h1 {
+    font-size: 32px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.header-nav-list a {
+    color: #323232;
+    font-size: 18px;
+}
+
+.header-nav-list li:hover {
+    transform: scale(1.1);
+}
+
+.patlete {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.patlete img:hover {
+    transform: scale(1.1);
+}
+
+.burger {
+    color: white;
+}
+.wraper {
+    padding-top: 40px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item{
+    border-radius: 10px;
+background: #E1E1E1;
+    min-height: 296px;
+      /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center;  */
+    text-align: center; 
+}
+.anti-sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 296px;
+}
+.anti-sale-grand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 622px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.grand{
+grid-column: 2 span;
+grid-row: 1 span;
+}
+.sale{
+    background: #000;
+    color: white;
+    position: absolute;
+    padding: 11px 39px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 22px;
+}
+.grand b{
+    font-size: 22px;
+    max-width: 206px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.clock{
+    min-height: 485px;
+    border-radius: 10px;
+background: #E1E1E1;
+position: relative;
+}
+.main h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.clock-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.anti-sale-clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 485px;
+}
+.male{
+    padding-top: 20px;
+}
+.bla{
+    display: flex;
+flex-direction: column;
+position: absolute;
+gap: 10px;
+top: 10px;
+right: 10px;
+}
+.choose{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.japan{
+    background: url(../img/japanbg.svg);
+}
+.soveti{
+    min-height: 470px;
+    border-radius: 10px;
+    color: white;
+}
+.advice{
+    background: white;
+    position: absolute;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.advice a{
+    color: black;
+}
+.section-first-content{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    min-height: 470px;
+    padding-left: 64px;
+    gap: 30px;
+    max-width: 462px;
+}
+.time{
+    display: flex;
+align-items: end;
+    gap: 10px;
+    padding-top: 50px;
+}
+.haiqin{
+    background: url(../img/haiqinbg.svg) ;
+}
+.footer{
+    background: #323232;
+    color: white;
+    min-height: 400px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-first{
+    padding-bottom: 50px;
+}
+.footer h2{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.footer a{
+    color: white;
+    height: 22px;
+    font-size: 18px;
+}
+.footer .container{
+    display: flex;
+}
+.second-footer-list{
+    display: flex;
+    flex-direction: column;
+ padding-left: 160px;
+    gap: 15px;
+    padding-right: 216px;
+}
+.four-hundred{
+    font-weight: 400;
+}
+.number{
+    display: flex;
+    gap: 11px;
+}
+.third-footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.social-img{
+    display: flex;
+    gap: 26px;
+    padding-top: 40px;
+}
+.social-media h3{
+    font-weight: 400;
+}
+.footer a:hover{
+transform: scale(1.1);
+}
+.footer li:hover{
+    transform: scale(1.1);
+}
